@@ -1,0 +1,189 @@
+title {
+    display: none;
+}
+
+body{
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    width: 2000;
+    margin: 0px;
+    background-color: #EEEEEE;
+    
+}
+/*<style type="text/css">*/
+a:link {text-decoration:none; color: black;} /* Link no visitado*/
+a:visited {text-decoration:none; color: black;} /*Link visitado*/
+a:active {text-decoration:none; color: black;} /*Link activo*/
+a:hover {text-decoration:none; color: black;} /*Mause sobre el link*/
+/*</style>*/
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEEEEE;
+    
+}
+
+ul li{
+    float: left;
+}
+
+ul li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+ul li a:hover {
+    
+    background-color: #7DBBB9;
+}
+
+
+
+h2
+{
+    font-family: "Red Hat Display";
+    font-size: 30px;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    font-weight:inherit;
+    margin: 0px;
+}
+
+h3
+{
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    color: #000000;
+    font-weight:inherit;
+    
+}
+
+h4
+{
+    font-family: "Red Hat Display";
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight:inherit;
+    margin: 0px;
+}
+
+/*Prueba grid*/
+.grid-container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 142px 1fr 156px 156px 1fr 142px;
+    grid-template-rows: 98px 197px 197px 177px 223px 177px 120px 276px 78px 315px 79px 98px 119px 78px;
+  background-color: #EEEEEE;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item1 {
+  grid-column: 2 / 5;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2;
+    grid-row: 10;
+  
+}
+
+.item3 {
+  grid-column: 5;
+    grid-row: 10;
+    z-index: 2;
+  
+}
+
+.item4 {
+    background-color: #2A4158;
+    grid-column: 2 / 7;
+    grid-row: 4;
+    
+    display: inline-grid;
+    place-items: center;
+    margin: 0;
+    /*justify-self: center;
+    align-self: center;*/
+    
+}
+
+.item5 {
+    background-color: #7DBBB9;
+    grid-column: 2 / 6;
+    grid-row: 6;
+    
+    display: inline-grid;
+    place-items: center left;
+    margin: 0;
+    
+}
+
+.item6 {
+  grid-column: 2 / 6;
+    grid-row: 15;
+    justify-self: center;
+    align-self: center;
+}
+
+.item7 {
+    background-color: #2A4158;
+    grid-column: 4 / 7;
+    grid-row: 9 / 12;
+}
+
+.item8 {
+    grid-column: 2;
+    grid-row: 8;
+    text-align: left;
+}
+
+.item9 {
+    grid-column: 2;
+    grid-row: 8;
+    text-align: right;
+}
+
+.item10 {
+    grid-column: 3 / 5;
+    grid-row: 8;
+    text-align: center;
+}
+
+.item11 {
+    grid-column: 5;
+    grid-row: 8;
+    text-align: right;
+}
+
+.item12 {
+    grid-column: 5;
+    grid-row: 8;
+    text-align: left;
+}
+
+.item13 {
+    background-color: #508593;
+    grid-column: 1;
+    grid-row: 4;
+    
+}
