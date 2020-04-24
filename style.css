@@ -153,31 +153,31 @@ h4
 
 .item8 {
     grid-column: 2;
-    grid-row: 8;
+    grid-row: 9;
     text-align: left;
 }
 
 .item9 {
     grid-column: 2;
-    grid-row: 8;
+    grid-row: 9;
     text-align: right;
 }
 
 .item10 {
     grid-column: 3 / 5;
-    grid-row: 8;
+    grid-row: 9;
     text-align: center;
 }
 
 .item11 {
     grid-column: 5;
-    grid-row: 8;
+    grid-row: 9;
     text-align: right;
 }
 
 .item12 {
     grid-column: 5;
-    grid-row: 8;
+    grid-row: 9;
     text-align: left;
 }
 
@@ -191,7 +191,7 @@ h4
 .item14 {
     
     grid-column: 3 / 5;
-    grid-row: 7;
+    grid-row: 8;
     align-self: center;
     justify-self: center;
 }
@@ -199,7 +199,7 @@ h4
 .item15 {
     
     grid-column: 2;
-    grid-row: 7;
+    grid-row: 8;
     align-self: center;
     justify-self: left;
 }
@@ -207,7 +207,7 @@ h4
 .item16 {
     
     grid-column: 2;
-    grid-row: 7;
+    grid-row: 8;
     align-self: center;
     justify-self: right;
 }
@@ -215,14 +215,99 @@ h4
 .item17 {
     
     grid-column: 5;
-    grid-row: 7;
+    grid-row: 8;
     align-self: center;
     justify-self: left
-
+}
  .item18 {
-    
+   
     grid-column: 5;
-    grid-row: 7;
+    grid-row: 8;
     align-self: center;
     justify-self: right;
+}
+ 
+ .item19 {
+   
+    grid-column: 2 / 6;
+    grid-row: 3;
+    
+    justify-self: center;
+}
+
+/*Boton de busqueda*/
+.item20 {
+    grid-column: 5;
+    grid-row: 1;
+    justify-self: right;
+    padding: 14px 16px;
+    font-size: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #EEEEEE;
+  border-left: none;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #EEEEEE;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-right: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*Boton de busqueda*/
+
+/*Bloque relleno categoria de patrones*/
+.item21 {
+   grid-column: 1;
+   grid-row: 6;
+   background-color: #7DBBB9;
+}
+
+.item22 {
+   grid-column: 3 / 5;
+   grid-row: 14;
+justify-self: center;
+    align-self: center;
+}
+
+.item23 {
+   grid-column: 1;
+   grid-row: 1;
+justify-self: center;
+    align-self: center;
+}
+
+.item24 {
+   grid-column: 6;
+   grid-row: 1;
+justify-self: center;
+    align-self: center;
 }
