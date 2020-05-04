@@ -1,0 +1,3 @@
+Descripción de experiencia de usuario con el servicio: 
+
+La verificación de creador te acompaña paso a paso, no pide datos que ya ingresaste como usuario al crear la cuenta y da la opción para diferenciar entre empresa y creador, mismo proceso que con la cuenta anterior..

@@ -1,0 +1,3 @@
+Descripción de experiencia de usuario con el servicio: 
+
+Te acompaña paso a paso, aunque la opción no esta a primera vista en el menú de configuración. No exige documentos, solo el número telefónico y el correo electrónico son necesarios, ya terminado el proceso te deriva a una nueva página con un wizard para saber como funciona. La información está a la mano del usuario sobre la cuenta verificada.

@@ -1,0 +1,3 @@
+Descripción de experiencia de usuario con el servicio:
+ 
+La verificación popular en esta plataforma, no solo es de fácil acceso, sino que el proceso es rápido y ameno, es considerablemente más breve que el de Facebook y no es redundante con la información que entrega, sin embargo siendo qu es una aplicación dependiente de Faceboook y este ya tiene los datos verificados de la cuenta ¿Porqué exige comprobar la identidad nuevamente del usuario que inicia sesión desde Facebook?.
