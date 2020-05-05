@@ -1,0 +1,328 @@
+title {
+    display: none;
+}
+
+body{
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    width: 2000;
+    margin: 0px;
+    background-color: #EEEEEE;
+    
+}
+
+ul {
+    
+    list-style-type: none;
+    margin:0;
+    margin-top: 0;
+    background-color: #7DBBB9;
+    
+}
+
+
+
+ul li{
+    padding: 48px;
+    box-sizing: border-box;
+    width: 438px;
+    position: relative;
+    left:-40px;
+    padding-left:169px;
+    
+
+}
+
+ul li li{
+    width: 290px;
+    top: -27px;
+    height: 117px;
+    padding: 38px;
+    padding-left: 94px;
+    
+}
+
+ul li li:hover{
+    background-color: #eeeeee;
+    color: #fff;
+    
+        
+}
+
+ul li a {
+    
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 3px 140x;
+    text-decoration: none;
+    text-align: start;
+}
+
+ul li li a:hover{
+    color: #508593;
+}
+
+ul li a:hover{
+    color: #fff;
+}
+
+
+
+ul li:hover{
+    background-color:#508593;
+    color: #fff;
+    
+    
+}
+
+
+
+.item7 ul ul{
+    background: #eeeeee;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    position: absolute;
+    left: 450px;
+    top: 30%;
+    width: 150px;
+}
+   
+
+.item7 ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    
+   
+}
+    
+
+
+
+.item7 ul ul ul{
+    width: 514px;
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    background-color: #508593;
+    visibility: hidden;
+    padding: 103px 49px;
+    z-index: 2;
+    color: #fff;
+    
+}
+
+#cachito{
+    position: relative;
+    left: 225px;
+    bottom: 8.5px;
+}
+
+.item7 ul ul div{
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+    
+}
+
+
+.item7 ul li:hover > div{
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+#input{
+    left: 400px;
+    width: 484px;
+    z-index: 999;
+    visibility: visible;
+    position: absolute;
+    bottom: -190px;
+    padding: 11px
+    
+}
+
+#botón{
+    width: 159px;
+    height: 50px;
+    z-index: 999;
+    visibility: visible;
+    position: relative;
+    left: 480px;
+    bottom: -280px;
+    background-color: #000000;
+    color: #fff;
+}
+
+#botón2{
+     width: 300px;
+    height: 50px;
+    z-index: 999;
+    visibility: visible;
+    position: relative;
+    left: 409px;
+    bottom: -300px;
+    background-color: #000000;
+    color: #fff;
+}
+
+h1{
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    color: #fff;
+    font-weight:inherit;
+    margin: 0px;
+}
+
+  
+h2
+{
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight:inherit;
+    margin: 0px;
+}
+
+h3
+{
+    font-family: "Red Hat Display";
+    font-size: 24px;
+    color: #000000;
+    font-weight:inherit;
+    
+}
+
+h4
+{
+    font-family: "Red Hat Display";
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight:inherit;
+    margin: 0px;
+}
+
+/*Prueba grid*/
+.grid-container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 438px 362px 640px;
+    grid-template-rows: 92px 60px 64px 117px 117px 117px 117px 117px 223px;
+  background-color: #EEEEEE;
+  padding: 0px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 2;
+    margin-left: 126px;
+   
+}
+
+.item2 {
+  background-color: #7DBBB9;
+    grid-column: 1/2;
+    grid-row: 1/12;
+    display: inline-grid;
+    place-items: left;
+    margin: 0;
+}
+
+.item3 {
+  grid-column: 1;
+    grid-row: 4;
+    z-index: 2;
+    margin-left: 170px;
+    margin-top: 36px;
+    
+  
+}
+
+.item4 {
+    grid-column: 1;
+    grid-row: 5;
+    margin-left: 170px;
+    margin-top: 36px;
+}
+
+.item5 {
+    grid-column: 1;
+    grid-row: 6;
+    z-index: 2;
+    margin-left: 170px;
+    margin-top: 36px;
+}
+
+
+.item6 {
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 2;
+    margin-left: 66px;
+    margin-top:15px;
+}
+
+.item7 {
+    grid-column: 1;
+    grid-row: 4/9;
+    
+    
+
+    
+}
+
+.item8{
+    grid-column: 1;
+    grid-row: 4;
+    position: absolute;
+    top: 255px;
+    left: 80px;
+    
+}
+
+.item9{
+    grid-column: 1;
+    grid-row: 5;
+    position: absolute;
+    top:372px;
+    left: 75px;
+}
+
+.item10{
+    grid-column: 1;
+    grid-row: 6;
+    position: absolute;
+    top:486px;
+    left:75px;
+}
+
+.item11{
+    grid-column: 1;
+    grid-row: 7;
+    position: absolute;
+    top: 600px;
+    left: 75px;
+    
+}
+
+.item12{
+    grid-column: 1;
+    grid-row: 8;
+    position: absolute;
+    left: 75px;
+    top: 718px;
+}

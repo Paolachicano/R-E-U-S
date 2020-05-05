@@ -104,7 +104,23 @@
         
         <div class="item23"><img src="logos/logo u reus.png" alt="logo u reus" height="79"></div>
         
-        <div class="item24"><img src="logos/tres%20puntitos.svg" alt="tres puntitos" height="79"></div>
+        <div class="item12">
+        <div class="popup" onclick="myFunction()"><img src="logos/tres%20puntitos.svg" alt="tres puntitos" height="79">
+            <span class="popuptext" id="myPopup">
+                    <a href="ayuda.html">¿Necesitas ayuda?<br></a>
+                    <a href="configuracion.html">¿Quieres configurar algo?<br></a>
+                    <a href="informacion.html">¿Deseas informarte?<br></a>
+            </span>
+    </div>       
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+        </div> 
+        
         
         <div class="item20">
         <form class="example" action="action_page.php">

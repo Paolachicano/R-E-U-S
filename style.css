@@ -993,6 +993,7 @@ justify-self: center;
     grid-row: 6;
     justify-self: center;
     align-self: up;
+    z-index: 2;
 }
 
 #patron .item38, #patron2 .item38 {/*circulo gris*/
@@ -1001,6 +1002,7 @@ justify-self: center;
     justify-self: left;
     align-self: up;
     margin-left: 48px;
+    z-index: 2;
 }
 
 #patron .item39, #patron2 .item39 {/*circulo gris*/
@@ -1009,6 +1011,7 @@ justify-self: center;
     justify-self: right;
     align-self: up;
     margin-right: 48px;
+    z-index: 2;
 }
 
 #patron .item40, #patron2 .item40 {/*circulo gris*/
@@ -1017,6 +1020,7 @@ justify-self: center;
     justify-self: center;
     align-self: up;
     margin-left: 90px;
+    z-index: 2;
 }
 
 #patron .item41, #patron2 .item41 {/*circulo gris*/
@@ -1025,6 +1029,7 @@ justify-self: center;
     justify-self: center;
     align-self: up;
     margin-right: 90px;
+    z-index: 2;
 }
 
 #patron .item42, #patron2 .item42 {/*triángulo izquierdo*/
@@ -1033,6 +1038,7 @@ justify-self: center;
     justify-self: right;
     align-self: up;
     margin-top: 15px;
+    z-index: 2;
 }
 
 #patron .item43, #patron2 .item43 {/*triángulo derecho*/
@@ -1041,6 +1047,7 @@ justify-self: center;
     justify-self: left;
     align-self: up;
     margin-top: 15px;
+    z-index: 2;
 }
 
 
@@ -1273,15 +1280,15 @@ justify-self: center;
 #patron2 .item-1 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/1.png');
+  background:url('imagenes/face%20malo%201%20REUS.png');
   background-size:cover;
   }
 #patron2 .item-2{
-  background:url('imagenes/2.png');
+  background:url('imagenes/face%20malo%202%20REUS.png');
    background-size:cover;
 }
 #patron2 .item-3{
-  background:url('imagenes/3.png');
+  background:url('imagenes/face%20malo%203%20REUS.png');
    background-size:cover;
 }
 
@@ -2453,3 +2460,5 @@ justify-self: center;
     margin-right: 130px;
 }
 /*Fin página colaborar2*/
+
+
