@@ -1280,15 +1280,15 @@ justify-self: center;
 #patron2 .item-1 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/face%20malo%201%20REUS.png');
+  background:url('imagenes/facebook%20malo%201.png');
   background-size:cover;
   }
 #patron2 .item-2{
-  background:url('imagenes/face%20malo%202%20REUS.png');
+  background:url('imagenes/facebook%20malo%202.png');
    background-size:cover;
 }
 #patron2 .item-3{
-  background:url('imagenes/face%20malo%203%20REUS.png');
+  background:url('imagenes/facebook%20malo%203.png');
    background-size:cover;
 }
 
@@ -1308,15 +1308,15 @@ justify-self: center;
 #patron2 .item-4 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/youtube%20bueno%201.1.png');
+  background:url('imagenes/paypal%201.png');
   background-size:cover;
   }
 #patron2 .item-5{
-  background:url('imagenes/youtube%20bueno%201.2.png');
+  background:url('imagenes/paypal%202.png');
    background-size:cover;
 }
 #patron2 .item-6{
-  background:url('imagenes/youtube%20bueno%201.3.png');
+  background:url('imagenes/paypal%203.png');
    background-size:cover;
 }
 
@@ -1337,15 +1337,15 @@ justify-self: center;
 #patron2 .item-7 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/instagram%20creador%201.png');
+  background:url('imagenes/neteller%201.png');
   background-size:cover;
   }
 #patron2 .item-8{
-  background:url('imagenes/instagram%20creador%202.png');
+  background:url('imagenes/neteller%202.png');
    background-size:cover;
 }
 #patron2 .item-9{
-  background:url('imagenes/instagram%20creador%203.png');
+  background:url('imagenes/neteller%203.png');
    background-size:cover;
 }
 
@@ -1366,15 +1366,15 @@ justify-self: center;
 #patron2 .item-10 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/instagram%20empresa%201.png');
+  background:url('imagenes/tiktok%201.png');
   background-size:cover;
   }
 #patron2 .item-11{
-  background:url('imagenes/instagram%20empresa%202.png');
+  background:url('imagenes/tiktok%202.png');
    background-size:cover;
 }
 #patron2 .item-12{
-  background:url('imagenes/instagram%20empresa%203.png');
+  background:url('imagenes/tiktok%203.png');
    background-size:cover;
 }
 
@@ -1395,15 +1395,15 @@ justify-self: center;
 #patron2 .item-13 {
     z-index: 2;
     opacity: 1;
-  background:url('imagenes/instagram%20popular%201.png');
+  background:url('imagenes/twitter%201.png');
   background-size:cover;
   }
 #patron2 .item-14{
-  background:url('imagenes/instagram%20popular%202.png');
+  background:url('imagenes/twitter%202.png');
    background-size:cover;
 }
 #patron2 .item-15{
-  background:url('imagenes/instagram%20popular%203.png');
+  background:url('imagenes/twitter%203.png');
    background-size:cover;
 }
 
@@ -2405,14 +2405,14 @@ justify-self: center;
 }
 
 #colaborar2 .item31{
-    grid-column:4 / 6 ;
+    grid-column: 4 / 6 ;
     grid-row: 4;
     margin-top: 105px;
     margin-left: 14 px;
     padding-left: 11px;
 }
 #colaborar2 .item32{
-    grid-column:4 / 6 ; 
+    grid-column: 4 / 6 ; 
     grid-row: 4;
     margin-top: 251px;
      margin-left: 14 px;
@@ -2428,9 +2428,10 @@ justify-self: center;
 #colaborar2 .item34{
     grid-column:4 / 6 ;
     grid-row: 5;
-    margin-top: 193px;
+    margin-top: 180px;
      margin-left: 14 px;
     padding-left: 11px;
+    
 }
 
 #colaborar2 .video1{
